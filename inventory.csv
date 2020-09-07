@@ -1,0 +1,4 @@
+name,hostname,platform,port,username,password,groups
+rtr1, rtr1.somedomain.net,cisco_ios,22,devnet,n0tc1sc0,wan__us
+rtr2, 10.2.2.2,juniper_junos, 22, root, secret1235,juniper
+rtr3, rtr3.anotherdomain.com, cisco_iosxe, 822, admin, pass321,cisco__uk

@@ -1,0 +1,27 @@
+---
+rtr1:
+  hostname:  rtr1.somedomain.net
+  platform: cisco_ios
+  port: 22
+  username: devnet
+  password: n0tc1sc0
+  groups:
+    - wan
+    - us
+rtr2:
+  hostname:  10.2.2.2
+  platform: juniper_junos
+  port:  22
+  username:  root
+  password:  secret1235
+  groups:
+    - juniper
+rtr3:
+  hostname:  rtr3.anotherdomain.com
+  platform:  cisco_iosxe
+  port:  822
+  username:  admin
+  password:  pass321
+  groups:
+    - cisco
+    - uk
