@@ -1,0 +1,15 @@
+---
+wan:
+  role: wan
+
+us:
+  role: branch
+
+juniper:
+  platform: juniper_junos
+
+cisco:
+  role: other
+
+uk:
+  role: branch
