@@ -1,5 +1,7 @@
 # csv2nornir_inventory
 
+[![published](https://static.production.devnetcloud.com/codeexchange/assets/images/devnet-published.svg)](https://developer.cisco.com/codeexchange/github/repo/veprimk/csv2nornir_inventory)
+
 A simple converter from CSV format inventory to Nornir model YAML File
 
  
