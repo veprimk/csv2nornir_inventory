@@ -1,4 +1,10 @@
 name,hostname,platform,port,username,password,groups
-abc1, abc.somedomain.net,cisco_ios,22,devnet,n0tc1sc0,wan__us
-rtr2, 10.2.2.2,juniper_junos, 22, root, secret1235,juniper
-rtr3, rtr3.anotherdomain.com, cisco_iosxe, 822, admin, pass321,cisco__uk
+internet-rtr01,10.10.20.181,xe,23,cisco,cisco,cisco
+edge-firewall01,10.10.20.171,asa,23,cisco,cisco,cisco
+edge-sw01,10.10.20.172,ios,23,cisco,cisco,cisco
+core-rtr01,10.10.20.173,xr,23,cisco,cisco,cisco
+core-rtr02,10.10.20.174,xr,23,cisco,cisco,cisco
+dist-rtr01,10.10.20.175,xe,23,cisco,cisco,cisco
+dist-rtr02,10.10.20.176,xe,23,cisco,cisco,cisco
+dist-sw01,10.10.20.177,nxos,23,cisco,cisco,cisco
+dist-sw02,10.10.20.178,nxos,23,cisco,cisco,cisco

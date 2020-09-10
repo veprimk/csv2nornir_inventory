@@ -63,7 +63,7 @@ As you can see, you can pass multiple groups as long as you concatinate them usi
 
 ### DevNet Sandbox
 
-This code can be used in [DevNet Sandbox](https://developer.cisco.com/site/sandbox/) by copying it and incorporating it within your code as per  usage instructions.
+To use it with DevNet Sandbox checkout this [steplist](DevNet_Sandbox_instruction.md).
 
 ## How to test the software
 

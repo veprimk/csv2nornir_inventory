@@ -1,15 +1,6 @@
 ---
-wan:
-  role: wan
-
-us:
-  role: branch
-
-juniper:
-  platform: juniper_junos
-
 cisco:
-  role: other
-
-uk:
-  role: branch
+  connection_options:
+    netmiko:
+       extras:
+         device_type: 'cisco_ios_telnet'

@@ -1,7 +1,7 @@
 ---
 internet-rtr01:
   hostname: 10.10.20.181
-  platform: ixe
+  platform: cisco_iosxe
   port: 23
   username: cisco
   password: cisco
@@ -9,7 +9,7 @@ internet-rtr01:
     - cisco
 edge-firewall01:
   hostname: 10.10.20.171
-  platform: asa
+  platform: cisco_asa
   port: 23
   username: cisco
   password: cisco
@@ -17,7 +17,7 @@ edge-firewall01:
     - cisco
 edge-sw01:
   hostname: 10.10.20.172
-  platform: ios
+  platform: cisco_ios
   port: 23
   username: cisco
   password: cisco
@@ -25,7 +25,7 @@ edge-sw01:
     - cisco
 core-rtr01:
   hostname: 10.10.20.173
-  platform: xr
+  platform: cisco_iosxr
   port: 23
   username: cisco
   password: cisco
@@ -33,7 +33,7 @@ core-rtr01:
     - cisco
 core-rtr02:
   hostname: 10.10.20.174
-  platform: xr
+  platform: cisco_iosxr
   port: 23
   username: cisco
   password: cisco
@@ -41,7 +41,7 @@ core-rtr02:
     - cisco
 dist-rtr01:
   hostname: 10.10.20.175
-  platform: xe
+  platform: cisco_iosxe
   port: 23
   username: cisco
   password: cisco
@@ -49,7 +49,7 @@ dist-rtr01:
     - cisco
 dist-rtr02:
   hostname: 10.10.20.176
-  platform: xe
+  platform: cisco_iosxe
   port: 23
   username: cisco
   password: cisco
@@ -57,7 +57,7 @@ dist-rtr02:
     - cisco
 dist-sw01:
   hostname: 10.10.20.177
-  platform: nxos
+  platform: cisco_nxos
   port: 23
   username: cisco
   password: cisco
@@ -65,7 +65,7 @@ dist-sw01:
     - cisco
 dist-sw02:
   hostname: 10.10.20.178
-  platform: nxos
+  platform: cisco_nxos
   port: 23
   username: cisco
   password: cisco
